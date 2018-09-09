@@ -8374,7 +8374,7 @@
   						if (!elementHandledElsewhere(cn, renderer, elementHandlers)) {
   							_DrillForContent(cn, renderer, elementHandlers);
   						}
-  						renderer.y += 10;
+  						renderer.y += 0;
   					} else if (cn.nodeName === "LI") {
   						var temp = renderer.x;
   						renderer.x += 20 / renderer.pdf.internal.scaleFactor;
